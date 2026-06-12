@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 在精準農業的應用現況與挑戰-無人機與病蟲害管理</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .bg-gradient-hero {
+            background: linear-gradient(135deg, #115e59 0%, #0f766e 40%, #065f46 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-drone text-emerald-600 text-xl"></i>
+                    <span class="text-emerald-800 font-bold text-base sm:text-lg tracking-wide">精準農業專題成果發表展</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="#home" class="text-slate-600 hover:text-emerald-600 font-medium transition">首頁摘要</a>
+                    <a href="#discoveries" class="text-slate-600 hover:text-emerald-600 font-medium transition">研究發現</a>
+                    <a href="#report" class="text-slate-600 hover:text-emerald-600 font-medium transition">研究報告</a>
+                    <a href="#presentation" class="text-slate-600 hover:text-emerald-600 font-medium transition">成果簡報</a>
+                    <a href="#podcast" class="text-slate-600 hover:text-emerald-600 font-medium transition">播客Podcast</a>
+                    <a href="#video" class="text-slate-600 hover:text-emerald-600 font-medium transition">影音概述</a>
+                    <a href="#team" class="text-slate-600 hover:text-emerald-600 font-medium transition">團隊成員</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="bg-gradient-hero text-white py-20 lg:py-28 px-4 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute -top-40 -left-40 w-80 h-80 rounded-full bg-emerald-400 blur-3xl"></div>
+            <div class="absolute -bottom-40 -right-40 w-96 h-96 rounded-full bg-teal-400 blur-3xl"></div>
+        </div>
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <span class="inline-block bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-semibold px-4 py-1.5 rounded-full mb-6 tracking-wider uppercase">
+                課程成果展 ｜ 人工智慧基礎概念及商管應用
+            </span>
+            <h1 class="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-6 leading-tight">
+                AI 在精準農業的應用現況與挑戰<br>
+                <span class="text-emerald-300 text-xl sm:text-2xl md:text-3xl font-semibold block mt-3">
+                    — 無人機與病蟲害管理之整合分析報告 —
+                </span>
+            </h1>
+            <p class="text-emerald-100/80 text-sm sm:text-base font-medium max-w-xl mx-auto mb-10">
+                指導教授：成果指導小組 ｜ 發表日期：2026 年 6 月 ｜ 撰寫團隊：第 8 組
+            </p>
+            <div class="w-24 h-1 bg-emerald-400 mx-auto mb-10 rounded-full"></div>
+            
+            <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 sm:p-8 text-left border border-white/10 shadow-2xl max-w-4xl mx-auto">
+                <h3 class="text-lg sm:text-xl font-bold mb-4 text-emerald-300 flex items-center">
+                    <i class="fa-solid fa-file-text mr-2.5"></i> 研究摘要與專題介紹
+                </h3>
+                <p class="text-slate-100 leading-relaxed text-sm sm:text-base border-b border-white/10 pb-4 mb-4 text-justify">
+                    本研究深入探討人工智慧 (AI) 與無人飛行載具 (UAV) 整合應用於台灣精準農業之現況，特別聚焦於病蟲害管理、農情調查與施藥效率優化。隨著台灣農業就業人口從 1978 年的 155 萬人急劇下降至 2022 年的 53.7 萬人，從業人口銳減高達 65%，缺工危機全面爆發，且面臨嚴峻的高齡化與老農暴露於傳統拉管噴藥中毒的健康威脅。農業轉型已迫在眉睫。
+                </p>
+                <p class="text-slate-100 leading-relaxed text-sm sm:text-base text-justify">
+                    研究數據指出，導入 AI 無人機精準施藥可將傳統需耗時 4 小時的噴藥效率提升 10 至 12 倍（縮短至 20-30 分鐘），並節省 90% 以上的農業用水、減少 50% 的農藥使用量，進而提升 20% 的產量。透過卷積神經網路 (CNN) 與 NDVI 影像辨識等 AI 演算法，無人機能實現高達 98.56% 的植株缺株定位準確率及 90% 以上的災損判釋率。然而，實務落地仍面臨電池續航、法規「雙證照」門檻、高昂購機成本及傳統心理抗拒等挑戰。本研究建議透過「無人機代噴 + 糧商契作」新商模、政府政策優化與雲端大數據共享，降低門檻以達成農業 4.0 之數位永續轉型目標。
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <section id="discoveries" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">核心研究發現 (Research Findings)</h2>
+            <p class="mt-4 text-slate-600 max-w-2xl mx-auto text-sm sm:text-base">經由深度訪談一線代噴業者與質性紮根理論（Grounded Theory）嚴謹編碼，本研究歸納出 5 大關鍵發現：</p>
+            <div class="w-12 h-1 bg-emerald-600 mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200/60 hover:shadow-md transition duration-300">
+                <div class="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 text-lg font-bold mb-5 border border-emerald-100">01</div>
+                <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                    <i class="fa-solid fa-bolt text-amber-500 mr-2"></i> 科技降維打擊：極速作業效率
+                </h3>
+                <p class="text-slate-600 text-sm leading-relaxed text-justify">
+                    傳統人工拉管作業每公頃田區需耗費 4 小時，而無人機精準代噴僅需 20 至 30 分鐘，作業效率大幅躍進 10 倍以上。運用高度濃縮藥劑進行精準噴灑，更達成了資源極省（省水 90% 以上、減藥 50%）與產量躍升 20% 的驚人環境及經濟效益。
+                </p>
+            </div>
+            <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200/60 hover:shadow-md transition duration-300">
+                <div class="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 text-lg font-bold mb-5 border border-emerald-100">02</div>
+                <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                    <i class="fa-solid fa-crosshairs text-rose-500 mr-2"></i> 2公分級精準定位與AI辨識
+                </h3>
+                <p class="text-slate-600 text-sm leading-relaxed text-justify">
+                    專題結合卷積神經網路 (CNN) 與 NDVI 影像辨識技術，成功在田間實現「2公分級」超高解析度的精準地圖。實務運作中，對於水稻秧苗的缺株定位準確率高達 98.56%，而針對倒伏、蟲害等天然災損的判釋率亦穩定大於 90%，大幅降低農情普查成本。
+                </p>
+            </div>
+            <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200/60 hover:shadow-md transition duration-300">
+                <div class="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 text-lg font-bold mb-5 border border-emerald-100">03</div>
+                <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                    <i class="fa-solid fa-wind text-sky-500 mr-2"></i> 下旋氣流物理輔助：防護力升級
+                </h3>
+                <p class="text-slate-600 text-sm leading-relaxed text-justify">
+                    研究發現，無人機在田間飛行施藥時，其螺旋槳所產生的強大「下旋氣流」能形成重要的物理輔助效應。該氣流能有效將作物葉片吹開，使細緻的濃縮藥劑均勻附著於作物的株心、根部以及平時難以噴灑到的葉片背面，防護效果優於傳統人工。
+                </p>
+            </div>
+            <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200/60 hover:shadow-md transition duration-300">
+                <div class="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 text-lg font-bold mb-5 border border-emerald-100">04</div>
+                <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                    <i class="fa-solid fa-handshake text-indigo-500 mr-2"></i> 創新商模：「代噴+契作」新體系
+                </h3>
+                <p class="text-slate-600 text-sm leading-relaxed text-justify">
+                    為了克服高昂的機具購置成本，市場已演化出「無人機代噴 + 糧商契作」的創新共享模式。由大糧商負責整合契作田區，並由專業的代噴業者提供科技化施藥與監測服務。此舉讓小農免除 40-50 萬的購機負擔，即可同等享受智慧農業轉型利潤。
+                </p>
+            </div>
+            <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200/60 hover:shadow-md transition duration-300">
+                <div class="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 text-lg font-bold mb-5 border border-emerald-100">05</div>
+                <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                    <i class="fa-solid fa-triangle-exclamation text-amber-600 mr-2"></i> 落地落實：四大核心挑戰
+                </h3>
+                <p class="text-slate-600 text-sm leading-relaxed text-justify">
+                    技術推廣仍面臨以下瓶頸：鋰電池續航力不足、崎嶇與邊緣田區的即時邊緣運算硬體限制、偏重學術考試的「雙證照（無人機操作證+農藥代噴證）」法規高門檻，以及老農對於「用極少水量即可有效防除病蟲害」的傳統心理觀念抗拒。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="report" class="py-20 bg-slate-100 border-t border-b border-slate-200/60">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 flex items-center">
+                        <i class="fa-solid fa-file-pdf text-rose-600 mr-2.5"></i> 完整研究報告 PDF
+                    </h2>
+                    <p class="text-slate-600 mt-2 text-sm sm:text-base">專題研究完整學術文本，包含詳盡的文獻回顧、質性深訪架構與結論建議。</p>
+                </div>
+                <a href="pdf/research-report.pdf" download class="mt-4 sm:mt-0 inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-5 py-3 rounded-xl transition shadow-sm whitespace-nowrap">
+                    <i class="fa-solid fa-download mr-2"></i> 下載完整報告
+                </a>
+            </div>
+            <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden p-2">
+                <iframe src="pdf/research-report.pdf" class="w-full h-[500px] md:h-[650px] rounded-xl" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="presentation" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 flex items-center">
+                        <i class="fa-solid fa-file-powerpoint text-amber-500 mr-2.5"></i> 專題精華簡報成果 (10頁 PPT)
+                    </h2>
+                    <p class="text-slate-600 mt-2 text-sm sm:text-base">精煉核心圖表、紮根理論模型與一線數據對比之口頭報告簡報檔。</p>
+                </div>
+                <a href="pdf/presentation.pdf" download class="mt-4 sm:mt-0 inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-white font-semibold px-5 py-3 rounded-xl transition shadow-sm whitespace-nowrap">
+                    <i class="fa-solid fa-download mr-2"></i> 下載專題簡報
+                </a>
+            </div>
+            <div class="bg-slate-50 rounded-2xl shadow-md border border-slate-200 overflow-hidden p-2">
+                <iframe src="pdf/presentation.pdf" class="w-full h-[500px] md:h-[650px] rounded-xl" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="podcast" class="py-20 bg-slate-100 border-t border-b border-slate-200/60">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-sm border border-slate-200">
+                <div class="text-center mb-8">
+                    <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full uppercase tracking-wider border border-emerald-200/60">成果衍生音訊</span>
+                    <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 mt-3">【科技農村】AI 無人機如何變身病蟲害神隊友？</h2>
+                    <p class="text-slate-500 mt-2 text-xs sm:text-sm">以活潑深入的對談方式，帶您解讀智慧農業 4.0 的跨域轉型秘密</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 flex flex-col items-center justify-center space-y-5">
+                    <div class="text-emerald-600 text-4xl"><i class="fa-solid fa-microphone-lines animate-pulse"></i></div>
+                    
+                    <audio controls class="w-full max-w-xl shadow-inner rounded-full">
+                        <source src="audio/podcast.mp3" type="audio/mpeg">
+                        您的瀏覽器不支援 HTML5 音訊播放，請點擊下方按鈕下載收聽。
+                    </audio>
+                    
+                    <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 pt-3 border-t border-slate-200 w-full max-w-xl">
+                        <a href="audio/podcast.mp3" download class="inline-flex items-center text-xs sm:text-sm text-slate-600 hover:text-emerald-600 font-medium transition">
+                            <i class="fa-solid fa-file-audio mr-2 text-slate-400"></i> 下載 Podcast MP3 音檔
+                        </a>
+                        <span class="text-slate-300 hidden sm:inline">|</span>
+                        <a href="pdf/podcast-transcript.pdf" download class="inline-flex items-center text-xs sm:text-sm text-emerald-600 hover:text-emerald-700 font-bold transition bg-emerald-50 px-3 py-1.5 rounded-lg border border-emerald-200">
+                            <i class="fa-solid fa-file-lines mr-2"></i> 下載 Podcast 完整逐字稿 PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">Video Overview 專題影音概述</h2>
+                <p class="text-slate-600 mt-2 text-sm sm:text-base">核心實作教學與無人機模擬展示影片，直擊新科技導入傳統農業的實作現場。</p>
+                <div class="w-12 h-1 bg-emerald-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+            
+            <div class="bg-slate-950 rounded-3xl overflow-hidden shadow-2xl border border-slate-800 p-2 sm:p-3">
+                <video controls class="w-full h-auto rounded-2xl aspect-video bg-black">
+                    <source src="video/video-overview.mp4" type="video/mp4">
+                    您的瀏覽器不支援 HTML5 影片播放。
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-20 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">專題研究團隊成員介紹</h2>
+                <p class="mt-4 text-emerald-700 font-semibold max-w-xl mx-auto text-sm sm:text-base">國立屏東科技大學 農企業管理系</p>
+                <div class="w-12 h-1 bg-emerald-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+                
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col h-full hover:shadow-md transition">
+                    <div class="h-72 bg-slate-200 relative overflow-hidden">
+                        <img src="img/member-liou.jpg" alt="劉姿伶" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent flex items-end p-5">
+                            <span class="text-white font-bold text-lg tracking-wide shadow-sm">劉姿伶 ｜ 溝通與統整核心</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <h3 class="text-lg font-bold text-slate-900">劉姿伶</h3>
+                                <span class="bg-emerald-50 text-emerald-700 text-xs font-semibold px-2.5 py-1 rounded border border-emerald-200">二年級 A 班</span>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed text-justify whitespace-pre-line">
+                                大家好，我是國立屏東科技大學農企業管理系二年級 A 班的劉姿伶。我是一位認真負責、做事極具效率且高度注重細節的人。我擅長細心規劃專案進度，並能以極大的耐心將繁雜的工作按部就班完成。在團隊合作中，我扮演溝通協調與資訊統整的角色，樂於傾聽夥伴想法並凝聚共識。
+                                
+                                在農企系的專業學習過程中，我逐步建立了雄厚的農企業營運、行銷管理與財務分析知識。我特別擅長數據整理與敏銳的市場趋势洞察，能夠將海量且混亂的質性或量化資訊，精準提煉成清楚易懂的圖表與報告架構。
+                                
+                                當前我深刻關注 AI 在精準農業的整合應用，期盼能藉由無人機代噴、AI 影像辨識、智慧氣象大數據分析等前沿科技，實質解決台灣農業面臨的嚴重人口老化、高齡化與勞動力斷層危機。本專題中我負責將訪談資料與數據進行歸納。未來，我期許自己持續精進智慧農業管制作業與糧商創新商模的知識，運用數據驅動思維，協助台灣農業朝向永續安全與國際化轉型，為在地產業創造更多實質商業價值。
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-400 italic font-mono">"Never say Impossible."</div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col h-full hover:shadow-md transition">
+                    <div class="h-72 bg-slate-200 relative overflow-hidden">
+                        <img src="img/member-chen.jpg" alt="陳貞廷" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent flex items-end p-5">
+                            <span class="text-white font-bold text-lg tracking-wide shadow-sm">陳貞廷 ｜ 報告主撰與學術統籌</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <h3 class="text-lg font-bold text-slate-900">陳貞廷</h3>
+                                <span class="bg-emerald-50 text-emerald-700 text-xs font-semibold px-2.5 py-1 rounded border border-emerald-200">學號 B11350038</span>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed text-justify whitespace-pre-line">
+                                我是陳貞廷，目前就讀於國立屏東科技大學農企業管理系。在校期間，我全心投入於農業經濟學、供應鏈管理、市場行銷及產業質性研究等核心學科的研習，除了累積紮實的理論基礎，也深刻理解到傳統農務必須與數位科技接軌的迫切性。
+                                
+                                我的個性穩重踏實、認真負責，對於團隊交辦與承諾的各項工作都會全力以赴。我熱愛思考，擁有良好的邏輯推理能力，善於從混亂的文獻中梳理出脈絡。我深信，卓越的研究成果不僅源自個人的努力，更取決於多元團隊的深度碰撞。因此，我積極投入各項課程專案，磨練跨領域溝通與衝突解決的技巧。
+                                
+                                在本次「AI 在精準農業的應用現況與挑戰」專題中，我擔任整合研究報告的主撰人。我將紮根理論應用於一線代噴業者的訪談逐字稿中，歷經開放編碼與主軸編碼，最終淬鍊出四大核心挑戰與技術發展趨勢。這次的實作經驗讓我深刻體會到大數據與無人機技術落地的高難度。未來，我計劃持續精進智慧產銷與精準農業營運標準，期許自己能將學術研究轉化為實務即戰力，朝向智慧農業管理專家之路邁進。
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-400 italic font-mono">數據驅動，跨域轉型。</div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col h-full hover:shadow-md transition">
+                    <div class="h-72 bg-slate-200 relative overflow-hidden">
+                        <img src="img/member-lin.jpg" alt="林承毅" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent flex items-end p-5">
+                            <span class="text-white font-bold text-lg tracking-wide shadow-sm">林承毅 ｜ 田野實作與前線行動</span>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <h3 class="text-lg font-bold text-slate-900">林承毅</h3>
+                                <span class="bg-emerald-50 text-emerald-700 text-xs font-semibold px-2.5 py-1 rounded border border-emerald-200">實作前線即戰力</span>
+                            </div>
+                            <p class="text-slate-600 text-sm leading-relaxed text-justify whitespace-pre-line">
+                                我是林承毅，目前就讀於屏東科技大學農企業管理系。我是一個在行動中尋找答案、完全「坐不住」的人。相比於整天關在安靜的辦公室或實驗室裡，我更熱愛置身於充滿朝氣、充滿變動與活力的農業與產業第一線實務現場。在實際動手操作、解決現實問題的過程中，我能強烈感受到自己為團隊帶來的價值。
+                                
+                                我非常習慣在汗水中找到工作的最佳節奏，過去多元且豐富的跨領域實作經驗，磨練出我獨特且強大的前線適應力。不論是在建築工地中透過高強度體力勞動所鍛鍊出的精準物件搬運與空間掌控力，還是在高節奏的餐飲業中面對繁雜訂單、長時間站立以及高難度製程操作時展現出的強大抗壓性與身體肌耐力，都充分證明了我具備卓越的體能與環境調適優勢。
+                                
+                                過去的團隊主管曾多次稱讚我是前線最可靠、技巧最純熟的即戰力。在這次無人機與精準農業專題中，我將這份實作熱情與身體力行的精神投入田野調查與代噴場地考察中，負責收集一線技術細節。我渴望將這些寶貴經驗與農企營運結合，為台灣智慧農業轉型貢獻最接地氣的行動力量。
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-400 italic font-mono">"Will greet this day with love in my heart."</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900 text-center text-sm">
+        <div class="max-w-7xl mx-auto px-4 space-y-3">
+            <p class="text-slate-200 font-semibold tracking-wide">國立屏東科技大學 農企業管理系 專題成果發表</p>
+            <p class="text-slate-400 text-xs">課程名稱：人工智慧基礎概念及商管應用 ｜ 指導：專題評審小組</p>
+            <p class="text-slate-500 text-xs pt-2">&copy; 2026 第 8 組 研究團隊. 本網頁專供期末成果發表展展示使用.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
